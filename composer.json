@@ -1,0 +1,12 @@
+{
+  "name": "blackjack200/simple-packet-handler",
+  "type": "library",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "": [
+        "src"
+      ]
+    }
+  }
+}
