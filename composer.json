@@ -1,12 +1,23 @@
 {
   "name": "blackjack200/simple-packet-handler",
+  "description": "Handle specific data packets (virion for PMMP API 4.0.0)",
   "type": "library",
-  "require": {},
+  "license": "GPL-3.0",
   "autoload": {
-    "psr-4": {
-      "": [
-        "src"
-      ]
+    "classmap": [
+      "src"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Muqsit",
+      "email": "hackhack05@gmail.com"
+    }
+  ],
+  "extra": {
+    "virion": {
+      "spec": "3.0",
+      "namespace-root": "muqsit\\simplepackethandler"
     }
   }
 }
